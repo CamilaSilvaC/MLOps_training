@@ -1,3 +1,29 @@
 src/__pycache__
 mlruns/
 src/.pytest_cache
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Artefatos gerados pelo treino
+models/*.pkl
+
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# Outputs do Streamlit
+.streamlit/
+
+# Logs
+*.log
+*.err.log
+
+# MLflow database
+mlflow.db
+
+# Artefatos de modelo
+models/*.pkl
+models/*.json
